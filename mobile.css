@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Tema Claro (6h às 17h59) */
+body.light {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body.light #clock {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tema Escuro (18h às 5h59) */
+body.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark #clock {
+    background-color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#clock {
+    width: 40%; /* Adjusted width for landscape */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw; /* Adjusted font size for landscape */
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-radius: 10px;
+}
+
+#date {
+    font-size: 2.5vw; /* Adjusted font size for landscape */
+    margin-top: 10px; /* Reduced margin for better spacing */
+    text-align: center;
+    line-height: 1.4;
+}
