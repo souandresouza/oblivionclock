@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 10px; /* Added padding for better spacing */
     font-family: 'Orbitron', sans-serif;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -32,20 +33,21 @@ body.dark #clock {
 }
 
 #clock {
-    width: 50%; /* Adjusted width for landscape */
+    width: 80%; /* Increased width for better visibility */
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6vw; /* Adjusted font size for landscape */
+    font-size: 8vw; /* Adjusted font size for readability */
     font-weight: bold;
     letter-spacing: 4px;
     border-radius: 10px;
+    margin-bottom: 10px; /* Added margin for spacing */
 }
 
 #date {
-    font-size: 3vw; /* Adjusted font size for landscape */
-    margin-top: 10px; /* Reduced margin for better spacing */
+    font-size: 4vw; /* Adjusted font size for readability */
+    margin-top: 10px;
     text-align: center;
     line-height: 1.4;
 }
