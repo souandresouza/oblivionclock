@@ -32,19 +32,19 @@ body.dark #clock {
 }
 
 #clock {
-    width: 40%; /* Adjusted width for landscape */
+    width: 50%; /* Adjusted width for landscape */
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw; /* Adjusted font size for landscape */
+    font-size: 6vw; /* Adjusted font size for landscape */
     font-weight: bold;
     letter-spacing: 4px;
     border-radius: 10px;
 }
 
 #date {
-    font-size: 2.5vw; /* Adjusted font size for landscape */
+    font-size: 3vw; /* Adjusted font size for landscape */
     margin-top: 10px; /* Reduced margin for better spacing */
     text-align: center;
     line-height: 1.4;
